@@ -26,6 +26,11 @@ justify-content:space-between;
 align-items:center;
 }
 
+.logo{
+font-size:18px;
+font-weight:bold;
+}
+
 .nav a{
 color:white;
 text-decoration:none;
@@ -90,6 +95,28 @@ margin:auto;
 padding:40px 20px;
 }
 
+/* STEPS */
+
+.steps{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.step{
+flex:1;
+background:white;
+padding:20px;
+border-radius:8px;
+box-shadow:0 2px 6px rgba(0,0,0,0.08);
+}
+
+.step h3{
+margin-top:0;
+color:#007bff;
+}
+
 /* FOOTER */
 
 footer{
@@ -123,7 +150,7 @@ opacity:0.9;
 
 <header>
 
-<div></div>
+<div class="logo">Video Tv Code</div>
 
 <div class="nav">
 <a href="about.html">About</a>
@@ -151,10 +178,36 @@ opacity:0.9;
 
 <section class="section">
 
+<h2>Activate Your Device in 3 Simple Steps</h2>
+
+<div class="steps">
+
+<div class="step">
+<h3>Step 1</h3>
+<p>Open the streaming application on your TV or streaming device.</p>
+</div>
+
+<div class="step">
+<h3>Step 2</h3>
+<p>An activation code will appear on your TV screen.</p>
+</div>
+
+<div class="step">
+<h3>Step 3</h3>
+<p>Enter the code above and continue to complete the activation process.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
 <h2>How Activation Works</h2>
 
 <p>
-Video Tv Code provides general information to help users understand device activation steps. 
+Video Tv Code provides general information to help users understand device activation steps.
 Enter your code and continue to the next step.
 </p>
 
